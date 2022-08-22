@@ -1,0 +1,73 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.calculadora{
+    margin-top: 50px;
+    background-color: black;
+    height: 480px;
+    width: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+.botao{
+    background-color: rgb(64, 57, 57);
+    width: 69px;    
+    height: 70px;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-sinal{
+    background-color: orange;
+    width: 69px;    
+    height: 70px;
+    border-radius: 50%;
+    color: white; 
+    font-size: x-large;
+}
+.botao0{
+    background-color: rgb(64, 57, 57);
+    width: 143.5px;    
+    height: 70px;
+    border-radius: 40px;
+    color: white; 
+    text-align: center;
+    font-size: x-large;
+}
+.botao-top{
+    background-color: grey;
+    width: 69px;    
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    font-size: x-large;
+
+}
+.text-area{
+    font-size: 90px;
+    width: 290px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    border-radius: 30px;
+    text-align: end;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

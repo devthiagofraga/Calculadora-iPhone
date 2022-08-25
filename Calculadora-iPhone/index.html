@@ -16,32 +16,32 @@
 
     <div class="calculadora">
 
-        <input class="text-area" id="text-area" type="number" placeholder="0">
+        <input class="text-area" id="display">
 
         <div class="botoes">
-            <button class="botao-top" oneclick="">AC</button>
-            <button class="botao-top" oneclick="">+/-</button>
-            <button class="botao-top" oneclick="">%</button>
-            <button class="botao-sinal" oneclick="">/</button>
+            <button id="botaoLimpar" class="botao-top">AC</button>
+            <button id="botaoOperador" class="botao-top">+/-</button>
+            <button id="botaoPorcentual" class="botao-top" operador>%</button>
+            <button id="operadorDividir" class="botao-sinal">÷</button>
 
-            <button class="botao" oneclick="">7</button>
-            <button class="botao" oneclick="">8</button>
-            <button class="botao" oneclick="">9</button>
-            <button class="botao-sinal" oneclick="">X</button>
+            <button id="botaoNumero" class="botao" onclick="valor7()">7</button>
+            <button id="botaoNumero" class="botao" numero>8</button>
+            <button id="botaoNumero" class="botao" numero>9</button>
+            <button id="operadorMultiplicar" class="botao-sinal">x</button>
 
-            <button class="botao" oneclick="">4</button>
-            <button class="botao" oneclick="">5</button>
-            <button class="botao" oneclick="">6</button>
-            <button class="botao-sinal" oneclick="">-</button>
+            <button id="botaoNumero" class="botao" numero>4</button>
+            <button id="botaoNumero" class="botao" numero>5</button>
+            <button id="botaoNumero" class="botao" numero>6</button>
+            <button id="operadorSubtrair" class="botao-sinal">−</button>
 
-            <button class="botao" oneclick="">1</button>
-            <button class="botao" oneclick="">2</button>
-            <button class="botao" oneclick="">3</button>
-            <button class="botao-sinal" oneclick="">+</button>
+            <button id="botaoNumero" class="botao" numero>1</button>
+            <button id="botaoNumero" class="botao" numero>2</button>
+            <button id="botaoNumero" class="botao" numero>3</button>
+            <button id="operadorSoma" class="botao-sinal">+</button>
 
-            <button class="botao0" oneclick=""> 0</button>
-            <button class="botao" oneclick="">,</button>
-            <button class="botao-sinal" oneclick="">=</button>
+            <button id="botaoNumero" class="botao0" numero> 0</button>
+            <button id="botaoVirgula" class="botao" numero>,</button>
+            <button id="operadorIgualdade" class="botao-sinal">=</button>
         </div>
 
     </div>

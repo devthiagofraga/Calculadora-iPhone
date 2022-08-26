@@ -16,32 +16,32 @@
 
     <div class="calculadora">
 
-        <input class="text-area" id="display">
+        <div class="textArea" id="resultado"></div>
 
         <div class="botoes">
-            <button id="botaoLimpar" class="botao-top">AC</button>
-            <button id="botaoOperador" class="botao-top">+/-</button>
-            <button id="botaoPorcentual" class="botao-top" operador>%</button>
-            <button id="operadorDividir" class="botao-sinal">÷</button>
+            <button id="botaoLimpar" class="botao-top" onclick="botaoLimpar()">AC</button>
+            <button id="trocaValor" class="botao-top">+/-</button>
+            <button id="botaoPorcentual" class="botao-top" onclick="insert('%')">%</button>
+            <button id="operadorDividir" class="botao-sinal" onclick="insert('/')">÷</button>
 
-            <button id="botaoNumero" class="botao" onclick="valor7()">7</button>
-            <button id="botaoNumero" class="botao" onclick="valor8()">8</button>
-            <button id="botaoNumero" class="botao" onclick="valor9()">9</button>
-            <button id="operadorMultiplicar" class="botao-sinal">x</button>
+            <button id="botaoNumero" class="botao" onclick="insert('7')">7</button>
+            <button id="botaoNumero" class="botao" onclick="insert('8')">8</button>
+            <button id="botaoNumero" class="botao" onclick="insert('9')">9</button>
+            <button id="operadorMultiplicar" class="botao-sinal" onclick="insert('*')">x</button>
 
-            <button id="botaoNumero" class="botao" onclick="valor4()">4</button>
-            <button id="botaoNumero" class="botao" onclick="valor5()">5</button>
-            <button id="botaoNumero" class="botao" onclick="valor6()">6</button>
-            <button id="operadorSubtrair" class="botao-sinal">−</button>
+            <button id="botaoNumero" class="botao" onclick="insert('4')">4</button>
+            <button id="botaoNumero" class="botao" onclick="insert('5')">5</button>
+            <button id="botaoNumero" class="botao" onclick="insert('6')">6</button>
+            <button id="operadorSubtrair" class="botao-sinal" onclick="insert('-')">−</button>
 
-            <button id="botaoNumero" class="botao" onclick="valor1()">1</button>
-            <button id="botaoNumero" class="botao" onclick="valor2()">2</button>
-            <button id="botaoNumero" class="botao" onclick="valor3()">3</button>
-            <button id="operadorSoma" class="botao-sinal">+</button>
+            <button id="botaoNumero" class="botao" onclick="insert('1')">1</button>
+            <button id="botaoNumero" class="botao" onclick="insert('2')">2</button>
+            <button id="botaoNumero" class="botao" onclick="insert('3')">3</button>
+            <button id="operadorSoma" class="botao-sinal" onclick="insert('+')">+</button>
 
-            <button id="botaoNumero" class="botao0" onclick="valor0()"> 0</button>
-            <button id="botaoVirgula" class="botao" onclick="virgula()">,</button>
-            <button id="operadorIgualdade" class="botao-sinal" onclick="igualdade()">=</button>
+            <button id="botaoNumero" class="botao0" onclick="insert('0')"> 0</button>
+            <button id="botaoVirgula" class="botao" onclick="insert(',')">,</button>
+            <button id="operadorIgualdade" class="botao-sinal" onclick="calculo()">=</button>
         </div>
 
     </div>

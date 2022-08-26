@@ -18,7 +18,6 @@ function calculo() {
 }
 
 function trocaValor() {
-    calculo()
-    const input = document.getElementById('resultado').innerHTML;
+
     document.getElementById('resultado').innerHTML = input * -1;
 }
